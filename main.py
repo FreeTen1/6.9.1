@@ -7,6 +7,6 @@ for cat in cats:
     print(obj_cat.getName(), obj_cat.getSex(), obj_cat.getAge())
 print()
 c1 = Circle(5)
-print("Площадь окружности с радиусом {} равна {}".format(c1.getRadius(), c1.get_area_circle()))
+print("Площадь окружности с радиусом {} равна {}".format(c1.getRadius(), round(c1.get_area_circle(), 4)))
 c1.setRadius(8)
-print("Площадь окружности с радиусом {} равна {}".format(c1.getRadius(), c1.get_area_circle()))
+print("Площадь окружности с радиусом {} равна {}".format(c1.getRadius(), round(c1.get_area_circle(), 4)))
