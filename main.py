@@ -19,4 +19,4 @@ for figure in figures:
         print("Площадь квадрата со стороной {} равна {}".format(figure.getA(), figure.getAreaSquare()))
     else:
         print("Площадь прямоугольника с шириной {}, высотой {} равна {}".format(figure.getWidth(), figure.getHeigth(),
-                                                                                figure.getArea()))
+                                                                                figure.getArea())
